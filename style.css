@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.primary-links{
+    width: 83%;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.primary-links li{
+    margin-right: 30px;
+}
+
+.primary-links img{
+    width: 17%;
+    height: 20%;
+    margin-right: 20px;
+}
+.Nav-links{
+    width: 60%;
+    background-color: black;
+}
+.nav-icons{
+    align-items: center;
+    width:25%;
+    justify-content: space-between;
+}
+nav{
+    font-size: 15px;
+    font-weight: 250;
+}
+.hero-section{
+    height: 70vh;
+    background-image: url(./background\ page.avif);
+    background-size: auto;
+    background-position: center;
+}
+
+.text-section {
+ 
+    padding: 250px;
+    font-size:30px;
+    margin-left: -150px;
+    font-weight: 300;
+    
+}
+.text-section h1{
+    font-size: 35px;
+    margin-left: -24px;
+    margin-top: -65px;
+}
+
+.text-section p{
+    padding: 8px;
+   font-size: 15px;
+  
+}
+
+.text-section button{
+    background-color: rgb(42, 102, 221);
+    padding: 14px;
+    margin-right: 20px;
+    font-size: 18px;
+    color: white;
+    border: none;
+
+}
+.text-windows a{
+    padding: 25px;
+   margin-left: 20px;
+    font-size: 15px;
+ 
+}
+.hide-section{
+    padding: 20px;
+    height: 20vh;
+
+    
+}
+span.text-windows{
+    margin-left: 150px;
+    padding: 50px;
+   
+}
+
+.hide-section .icon-section{
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 220px;
+  p
+}
+.hide-section i{
+
+    width:50% ;
+    font-size:50px ;
+}
+
+.laptop-section{
+    height: 100%;
+    width: 100%;
+    margin:40px;
+    display: flex;
+    justify-content: space-between;
+
+ 
+}
+
+
+.laptoptext-section{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+.laptoptext-section button{
+    height: 30px;
+    background-color:orange ;
+    color: black;
+    border-radius: 10px;
+    width: 80px;
+    border: none;
+    font-size: 25px;
+}
+.laptoptext-section img{
+   
+    height: 200px;
+    width: 300px;
+}
+.laptoptext-section h1{
+    padding: 2px;
+    margin-left: -15px;
+    font-size: 30px;
+   
+}
+.laptoptext-section p{
+    padding: 10px;
+    margin-left: -10px;
+    
+}
+.laptoptext-section a{
+    
+    font-size: 20px;
+    color:cornflowerblue ;
+    border: none;
+   
+}
+.xbox-section{
+    background-image: url(./Hero-Xbox-Series.webp);
+    height: 80vh;
+    margin: 90px;
+    
+}
+.textSeries-section{
+  padding: 200px;
+  font-size: 25px;
+  
+    
+}
+.textSeries-section h1{
+    margin-left: -1px;
+    margin-right: 20px;
+}
+
+
+.textSeries-section p{
+   margin-left: -12px;
+    padding:10px ;
+    font-size: 18px;
+}
+.textSeries-section button{
+    background-color: cadetblue;
+    height: 40px;
+    width: 120px;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+div h1{
+    font-size: 40px;
+    margin-left: 40px;
+}
+  .follow-microsoft p{
+    font-size: 30px;
+    margin-left: 50px;
+  }
+
+.follow-microsoft i{
+     margin-left: 10px;
+    font-size: 25px;
+}
+.follow-microsoft span {
+    display: flex;
+}
+.follow-microsoft{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+}
+.follow-microsoft button{
+    margin-top: 30px;
+}
+.back-btn{
+    width:120px;
+    margin-right: 10px;
+    background-color: #FFC0CB;
+}
+
+  .Futter-section{
+    height: 70vh;
+    background-color: rgb(248, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+
+   
+  .Futter-section ul{
+    list-style: none;
+    min-height: 11px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ .Futter-section ul li{
+    margin: 10px 0px;
+ }
+ @media (max-width:950px){
+    .Futter-section{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+ }
+
+
+@media(max-width: 960px)
+
+{
+    .primary-links{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
